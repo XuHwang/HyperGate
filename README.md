@@ -1,5 +1,15 @@
 # IC-Gate
 
+## How to RUN
+
+This repo relies on the RecStudio library. Please follow the instructions below to install and run the code.
+```bash
+git clone https://github.com/XuHwang/IC-Gate.git
+cd IC-Gate/
+git submodule init
+git submodule update --remote --branch multi-domain-multi-task
+```
+
 
 To run MMOE, the following steps are required:
 
