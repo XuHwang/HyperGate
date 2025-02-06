@@ -9,7 +9,15 @@
             "type": "debugpy",
             "request": "launch",
             "program": "./main.py",
-            "args": ["-m", "MMoE", "-d", "kuairand", "--batch_size", "1024", "--eval_batch_size", "512", "--split_mode", "entry"],
+            "args": ["-m", "DCN", "-d", "kuairand", "--batch_size", "2048", "--eval_batch_size", "1024"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Get Embedding",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./main.py",
+            "args": ["-m", "DCN", "-d", "kuairand", "--batch_size", "2048", "--eval_batch_size", "1024", "--load_ckpt_path", "./saved/DCN/kuairand/2024-07-08-10-06-45-040661.ckpt", "--epoch", "0"],
             "console": "integratedTerminal"
         }
     ]

@@ -136,8 +136,18 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+dataset/
 dataset/*
+saved/
 saved/*
 .recstudio/*
+log/
 log/*
 tensorboard/*
+
+*.npy
+plot/
+plot/*
+
+.vscode/
+.vscode/*
